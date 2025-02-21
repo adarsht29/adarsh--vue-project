@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-base-200">
+  <div class="navbar bg-base-100">
     <div class="flex-1">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -28,7 +28,7 @@
           <li><RouterLink to="/blog">Blog</RouterLink></li>
         </ul>
       </div>
-      <a class="btn btn-ghost text-xl">Adarsh T</a>
+      <RouterLink to="/" class="btn btn-ghost text-xl">Adarsh T</RouterLink>
     </div>
     <div class="flex-3 hidden lg:flex">
       <ul class="menu menu-horizontal px-1">

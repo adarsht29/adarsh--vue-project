@@ -10,7 +10,20 @@
     </nav>
     <nav>
       <div class="grid grid-flow-col gap-4">
-        <a>
+        <a href="https://www.instagram.com/adarshtnandhu" target="_blank">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            class="fill-current"
+          >
+            <path
+              d="M6.5 1h11A6.5 6.5 0 0124 7.5v9A6.5 6.5 0 0117.5 23h-11A6.5 6.5 0 011 16.5v-9A6.5 6.5 0 016.5 1zm0 3A3.5 3.5 0 003 7.5v9A3.5 3.5 0 006.5 20h11A3.5 3.5 0 0021 16.5v-9A3.5 3.5 0 0017.5 4h-11zm5.5 3a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm5.5-2.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5z"
+            ></path>
+          </svg>
+        </a>
+        <a href="https://x.com/adarshtnandhu" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -23,7 +36,7 @@
             ></path>
           </svg>
         </a>
-        <a>
+        <a href="https://youtube.com/@adarshtnandhu" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -36,7 +49,7 @@
             ></path>
           </svg>
         </a>
-        <a>
+        <a href="https://facebook.com/adarshtnandhu" target="_blank">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
