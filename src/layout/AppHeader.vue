@@ -1,8 +1,9 @@
 <template>
   <div class="navbar bg-base-100">
     <div class="flex-1">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+      <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <label for="my-drawer-3" aria-label="open sidebar">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-5 w-5"
@@ -17,11 +18,13 @@
               d="M4 6h16M4 12h8m-8 6h16"
             />
           </svg>
-        </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-        >
+        </label>
+      </div>
+
+      <div class="drawer-side">
+        <label for="my-drawer-3" aria-label="close sidebar" class="drawer-overlay"></label>
+        <ul class="menu bg-base-200 min-h-full w-80 p-4">
+          <li><RouterLink to="/" class="btn btn-ghost text-xl">Adarsh T</RouterLink></li>
           <li><RouterLink to="/">Home</RouterLink></li>
           <li><RouterLink to="/about">About</RouterLink></li>
           <li><RouterLink to="/contact">Contact</RouterLink></li>

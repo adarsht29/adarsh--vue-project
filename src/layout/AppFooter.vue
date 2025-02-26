@@ -1,7 +1,5 @@
 <template>
-  <footer
-    class="footer footer-horizontal footer-center bg-neutral text-neutral-content rounded p-10"
-  >
+  <footer class="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
     <nav class="grid grid-flow-col gap-4">
       <RouterLink to="/" class="link link-hover">Home</RouterLink>
       <RouterLink to="/about" class="link link-hover">About</RouterLink>
@@ -66,7 +64,7 @@
     </nav>
   </footer>
   <footer
-    class="footer sm:footer-horizontal footer-center bg-base-200 text-base-content items-center p-4"
+    class="footer sm:footer-horizontal footer-center bg-neutral text-neutral-content items-center p-4"
   >
     <aside class="grid-flow-col items-center">
       <svg
