@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+@mixin special-elite-font {
+  font-family: 'Special Elite', serif;
+}
+@mixin urbanist-font {
+  font-family: 'Urbanist', serif;
+  font-optical-sizing: auto;
+}
+@mixin dm-serif-display-font {
+  font-family: 'DM Serif Display', serif;
+}
+@mixin dm-serif-text-font {
+  font-family: 'DM Serif Text', serif;
+}
+@mixin jost-font {
+  font-family: 'Jost', serif;
+  font-optical-sizing: auto;
+}
+@mixin poppins-font {
+  font-family: 'Poppins', serif;
+}
+@mixin gabarito-font {
+  font-family: 'Gabarito', serif;
+  font-optical-sizing: auto;
+}
+@mixin raleway-font {
+  font-family: 'Raleway', serif;
+  font-optical-sizing: auto;
+}
+@mixin lexend-font {
+  font-family: 'Lexend', serif;
+  font-optical-sizing: auto;
+}
+@mixin albert-sans-font {
+  font-family: 'Albert Sans', serif;
+  font-optical-sizing: auto;
+}
+@mixin fraunces-font {
+  font-family: 'Fraunces', serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    'SOFT' 0,
+    'WONK' 0;
+}
+
+.special-elite-font {
+  @include special-elite-font;
+}
+.urbanist-font {
+  @include urbanist-font;
+}
+.dm-serif-display-font {
+  @include dm-serif-display-font;
+}
+.dm-serif-text-font {
+  @include dm-serif-text-font;
+}
+.jost-font {
+  @include jost-font;
+}
+.poppins-font {
+  @include poppins-font;
+}
+.gabarito-font {
+  @include gabarito-font;
+}
+.raleway-font {
+  @include raleway-font;
+}
+.lexend-font {
+  @include lexend-font;
+}
+.albert-sans-font {
+  @include albert-sans-font;
+}
+.fraunces-font {
+  @include fraunces-font;
+}
