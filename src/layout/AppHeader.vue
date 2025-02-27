@@ -22,18 +22,18 @@
 
       <div class="drawer-side">
         <label for="navbar-drawer" aria-label="close sidebar" class="drawer-overlay"></label>
-        <ul class="menu menu-lg bg-base-200 min-h-full w-80 p-4">
-          <RouterLink to="/" class="btn btn-ghost text-4xl dm-serif-display-font"> A. </RouterLink>
+        <ul class="menu menu-lg bg-base-200 min-h-full w-80 p-4 gap-2">
+          <RouterLink to="/" class="btn btn-ghost text-5xl dm-serif-display-font"> A. </RouterLink>
           <li><RouterLink to="/">Home</RouterLink></li>
           <li><RouterLink to="/about">About</RouterLink></li>
           <li><RouterLink to="/contact">Contact</RouterLink></li>
           <li><RouterLink to="/blog">Blog</RouterLink></li>
         </ul>
       </div>
-      <RouterLink to="/" class="btn btn-ghost text-4xl dm-serif-display-font"> A. </RouterLink>
+      <RouterLink to="/" class="btn btn-ghost text-5xl dm-serif-display-font"> A. </RouterLink>
     </div>
     <div class="flex-3 hidden lg:flex">
-      <ul class="menu menu-lg menu-horizontal px-1">
+      <ul class="menu menu-lg menu-horizontal px-1 gap-2">
         <li><RouterLink to="/" class="text-lg">Home</RouterLink></li>
         <li><RouterLink to="/about" class="text-lg">About</RouterLink></li>
         <li><RouterLink to="/contact" class="text-lg">Contact</RouterLink></li>
